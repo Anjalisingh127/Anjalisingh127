@@ -2,6 +2,8 @@
 
 **Software Engineer | Backend & Full-Stack Development | Java, Spring Boot, Python, React**
 
+**Portfolio:** [anjali-singh-portfolio.pages.dev](https://anjali-singh-portfolio.pages.dev/)
+
 I am a Computer Science & Engineering graduate building production-style software projects with an emphasis on **backend engineering, REST APIs, testing, deployment, automation, and reliable application design**.
 
 I am currently seeking **entry-level Software Engineer, Backend Engineer, Full-Stack Engineer, and Application/Technical Support Engineering opportunities** where I can contribute to real products while continuing to strengthen system design, cloud, and production engineering skills.
