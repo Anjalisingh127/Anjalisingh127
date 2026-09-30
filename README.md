@@ -72,6 +72,8 @@ Technical-support knowledge assistant built with **Python, FastAPI, FAISS, Sente
 - Evaluated retrieval on a curated 30-query benchmark; the current MiniLM setup achieved **100% Hit Rate@5**, **100% Recall@5**, and **0.92 MRR** on the project dataset.
 - Keeps evaluation data isolated from the searchable corpus and documents current limitations rather than presenting portfolio-scale results as production performance.
 
+**Live application:** https://anjali-rag-knowledge-assistant.streamlit.app
+
 ---
 
 ## Engineering interests
