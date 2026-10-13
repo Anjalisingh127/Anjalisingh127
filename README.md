@@ -1,124 +1,105 @@
 # Hi, I'm Anjali Singh 👋
 
-**Software Engineer | Backend & Full-Stack Development | Java, Spring Boot, Python, React**
+**Junior Software Engineer | Backend & Full-Stack Development | Java, Spring Boot, Python, React**
 
 **Portfolio:** [anjalisingh127.github.io](https://anjalisingh127.github.io/)
 
-I am a Computer Science & Engineering graduate building production-style software projects with an emphasis on **backend engineering, REST APIs, testing, deployment, automation, and reliable application design**.
+I am a Computer Science and Engineering graduate from Sharda University who enjoys building and testing practical software. My projects focus on **REST APIs, full-stack applications, automated testing, deployment, Python tooling, and applied machine learning**.
 
-I am currently seeking **entry-level Software Engineer, Backend Engineer, Full-Stack Engineer, and Application/Technical Support Engineering opportunities** where I can contribute to real products while continuing to strengthen system design, cloud, and production engineering skills.
-
----
-
-## What I work with
-
-**Languages:** Java, Python, JavaScript, SQL  
-**Backend:** Spring Boot, Spring Data JPA, Hibernate, Node.js, Express, FastAPI  
-**Frontend:** React, Vite, HTML, CSS  
-**Databases:** MySQL, MongoDB, TiDB Cloud  
-**Testing & Quality:** JUnit 5, Mockito, MockMvc, pytest, Vitest, Supertest, Ruff, ESLint  
-**Tools & Platforms:** Git, GitHub, Maven, Docker, GitHub Actions, Postman, Swagger/OpenAPI, Render, Vercel  
-**Applied AI / Retrieval:** FAISS, Sentence Transformers, LangChain, Retrieval-Augmented Generation  
-**Support / Operations:** Log analysis, incident workflows, troubleshooting documentation
+I am looking for **entry-level Software Engineer, Backend Engineer, Full-Stack Engineer, and application/technical support engineering opportunities** where I can contribute, learn from experienced engineers, and grow through real-world development.
 
 ---
 
-## Featured engineering projects
+## Technical skills
 
-### [SmartTask API](https://github.com/Anjalisingh127/smarttask-api)
-Production-style task-management REST API built with **Java 17, Spring Boot, JPA/Hibernate, and MySQL-compatible persistence**.
-
-- Designed a layered controller → service → repository architecture with DTOs, validation, filtering, and centralized error handling.
-- Built **22 automated tests** with **90.91% line coverage** and integrated Maven, JaCoCo, Docker, and GitHub Actions.
-- Deployed the API on Render with a managed TiDB Cloud database and interactive Swagger documentation.
-
-**Live API:** https://smarttask-api-esz2.onrender.com/swagger-ui/index.html
-
----
-
-### [CampusConnect](https://github.com/Anjalisingh127/Campus-Link)
-Full-stack campus event discovery and administration platform built with **React, Express, MongoDB, JWT authentication, and role-based authorization**.
-
-- Implemented event discovery, administrator workflows, configuration history, audit logging, CSV export, and protected API routes.
-- Structured the application as an npm workspace monorepo with layered backend services and environment-based configuration.
-- Verified models, middleware, services, and API behavior with **40 automated tests** and deployed the application using Vercel, Render, and MongoDB Atlas.
-
-**Live application:** https://campus-connect-platform-sooty.vercel.app
+- **Languages:** Java, Python, JavaScript, SQL
+- **Backend:** Spring Boot, Spring Data JPA, Hibernate, Node.js, Express, FastAPI
+- **Frontend:** React, Vite, HTML, CSS, Streamlit
+- **Databases:** MySQL, MongoDB, TiDB Cloud
+- **Testing & quality:** JUnit 5, Mockito, MockMvc, pytest, Vitest, Supertest, Ruff, ESLint
+- **Tools & platforms:** Git, GitHub, Maven, Docker, GitHub Actions, Postman, Swagger/OpenAPI, Render, Vercel
+- **AI/ML:** scikit-learn, SHAP, FAISS, Sentence Transformers, LangChain, retrieval evaluation
+- **Support & operations:** Log analysis, incident workflows, troubleshooting documentation
 
 ---
 
-### [Network Service Test Framework](https://github.com/Anjalisingh127/network-service-test-framework)
-Python test framework for validating TCP services, request/response behavior, configuration, failure evidence, and integration scenarios.
+## Featured projects
 
-- Built reusable configuration and TCP connectivity validation components with normalized failure handling and latency evidence.
-- Added unit and integration coverage for service availability, timeouts, response mismatches, and local TCP-server behavior.
-- Maintained the project with automated checks and reproducible test results.
+### 1. [SmartTask API](https://github.com/Anjalisingh127/smarttask-api) — Java / Spring Boot
 
----
+A task-management REST API demonstrating layered backend design, validation, relational persistence, testing, and deployment.
 
-### [Log Anomaly Detector](https://github.com/Anjalisingh127/log-anomaly-detector)
-Python-based application-support project for parsing logs, detecting anomalies, generating investigation evidence, and documenting incident-response workflows.
+- Implemented CRUD endpoints, status and priority filtering, DTOs, and consistent API error responses.
+- Added **22 automated tests**, achieving **90.91% line coverage** and **100% branch coverage** in the current test suite.
+- Configured Docker, Docker Compose, GitHub Actions, JaCoCo, Swagger/OpenAPI, and cloud deployment with a managed MySQL-compatible database.
 
-- Processes reproducible synthetic application logs and identifies severity errors, HTTP 5xx responses, database timeouts, slow requests, and spike windows.
-- Produces CSV, JSON, and HTML evidence with explainable detection rules and request correlation.
-- Includes automated tests, performance methodology, Splunk-oriented workflows, and incident runbooks.
+**Try it:** [Live Swagger UI](https://smarttask-api-esz2.onrender.com/swagger-ui/index.html)
 
----
+### 2. [CampusConnect](https://github.com/Anjalisingh127/Campus-Link) — React / Node.js / MongoDB
 
-### [AI-Enabled RAG Knowledge Assistant](https://github.com/Anjalisingh127/ai-rag-knowledge-assistant)
-Technical-support knowledge assistant built with **Python, FastAPI, FAISS, Sentence Transformers, LangChain, and Streamlit**.
+A deployed full-stack campus event discovery and administration application.
 
-- Built ingestion, embedding, vector retrieval, evidence handling, generation, API, UI, and evaluation layers.
-- Evaluated retrieval on a curated 30-query benchmark; the current MiniLM setup achieved **100% Hit Rate@5**, **100% Recall@5**, and **0.92 MRR** on the project dataset.
-- Keeps evaluation data isolated from the searchable corpus and documents current limitations rather than presenting portfolio-scale results as production performance.
+- Built event discovery and management flows with REST APIs, JWT authentication, and role-based authorization.
+- Added configuration history and restoration, audit logging, CSV exports, validation, and environment-based configuration.
+- The backend suite contains **40 automated tests**; CI checks linting, tests, and the production client build.
 
-**Live application:** https://anjali-rag-knowledge-assistant.streamlit.app
+**Try it:** [Live application](https://campus-connect-platform-sooty.vercel.app)
 
----
+### 3. [AI-Enabled RAG Knowledge Assistant](https://github.com/Anjalisingh127/ai-rag-knowledge-assistant) — Python / FastAPI
 
-## Engineering interests
+A retrieval-augmented knowledge assistant that explores semantic search, evidence-grounded answers, and evaluation.
 
-I am especially interested in:
+- Implemented document ingestion, embeddings, vector retrieval with FAISS, API and UI layers, and retrieval evaluation.
+- On the project's curated 30-query benchmark, the MiniLM configuration achieved **100% Hit Rate@5**, **100% Recall@5**, and **0.92 MRR**.
+- Documents evaluation scope and limitations; benchmark results describe this dataset, not production-wide performance.
 
-- backend and API development;
-- full-stack product engineering;
-- application reliability, testing, and automation;
-- databases and distributed/backend systems;
-- production support and observability workflows;
-- practical AI integrations that solve software or support-engineering problems.
+**Try it:** [Live Streamlit application](https://anjali-rag-knowledge-assistant.streamlit.app)
 
----
+### 4. [Employee Attrition Prediction & HR Analytics](https://github.com/Anjalisingh127/Employee_Attrition_Prediction) — Python / scikit-learn
 
-## How I approach projects
+A machine-learning workflow for estimating employee attrition risk and explaining model behavior, with an interactive Streamlit application.
 
-I try to build beyond basic demos. My stronger repositories include combinations of:
+- Built leakage-aware preprocessing, stratified train/holdout evaluation, cross-validation, model tuning, probability calibration, and threshold selection.
+- Evaluated the frozen model on a reserved **294-row holdout set**, with **81.08% ROC-AUC**; this is a dataset-specific result, not a guarantee for real HR decisions.
+- Added coefficient analysis, permutation importance, global/local SHAP explainability, and a Streamlit dashboard foundation.
 
-- clear architecture and separation of concerns;
-- automated tests and measurable validation;
-- environment-based configuration;
-- CI workflows;
-- deployment or reproducible local execution;
-- API and architecture documentation;
-- explicit limitations and next steps.
+**Project details:** [README and evaluation methodology](https://github.com/Anjalisingh127/Employee_Attrition_Prediction)
 
-I value code that another engineer can understand, run, test, and review.
+### 5. [Log Anomaly Detector](https://github.com/Anjalisingh127/log-anomaly-detector) — Python / Observability
 
----
+A small application-support tool for parsing logs, detecting unusual patterns, and preparing evidence for investigation.
 
-## Currently improving
+- Processes reproducible synthetic application logs and identifies errors, HTTP 5xx responses, database timeouts, slow requests, and spike windows.
+- Produces structured CSV, JSON, and HTML outputs with explainable detection rules and request correlation.
+- Includes automated tests, benchmark methodology, Splunk-oriented workflows, and incident runbooks.
 
-- Data Structures & Algorithms
-- Java and Spring backend engineering
-- System design fundamentals
-- Docker and cloud deployment
-- Observability and production troubleshooting
-- Scalable API and database design
+### 6. [Network Service Test Framework](https://github.com/Anjalisingh127/network-service-test-framework) — Python / Testing
+
+A test framework for checking TCP service availability, request-response behavior, timeouts, and failure conditions.
+
+- Organizes reusable connectivity checks, configuration, response validation, and failure evidence.
+- Includes unit and integration tests for network behavior and service errors.
+- Emphasizes repeatable checks and useful diagnostics when a service does not behave as expected.
 
 ---
 
-## Connect with me
+## What I’m interested in
 
-- **LinkedIn:** https://www.linkedin.com/in/anjalisingh-as12
-- **GitHub:** https://github.com/Anjalisingh127
+- Backend engineering and REST API design
+- Full-stack application development
+- Automated testing and software quality
+- Databases and reliable data access
+- Application support, log analysis, and observability
+- Practical machine-learning and retrieval applications
 
-If you are hiring for an entry-level software engineering role and one of my projects is relevant to your team, I would be happy to discuss the design decisions, trade-offs, testing approach, and implementation in detail.
+## How I build
+
+I aim to make projects understandable and repeatable, not just demonstrable. Where appropriate, I include automated tests, CI checks, environment-based configuration, API documentation, deployment instructions, and notes on limitations. I’m continuing to improve my skills in Java/Spring, system design fundamentals, cloud deployment, and production troubleshooting.
+
+## Connect
+
+- **Portfolio:** [anjalisingh127.github.io](https://anjalisingh127.github.io/)
+- **LinkedIn:** [linkedin.com/in/anjalisingh-as12](https://www.linkedin.com/in/anjalisingh-as12)
+- **GitHub:** [github.com/Anjalisingh127](https://github.com/Anjalisingh127)
+
+Thanks for visiting. I’m happy to discuss the design choices, testing approach, trade-offs, and lessons behind these projects.
